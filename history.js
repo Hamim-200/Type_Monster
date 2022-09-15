@@ -30,9 +30,9 @@ function displayHistory() {
     newRow.classList.add("card");
 
     newRow.innerHTML = `
-  <h3 style="text-align:center">${test.questionText}</h3>
-  <p>You took: <span class="bold">${test.timeTaken}</span> seconds</p>
-    <p>You made <span class="bold red">${test.errorCount}</span> mistakes</p>
+        <h3 style="text-align:center">${test.questionText}</h3>
+        <p>You took: <span class="bold">${test.timeTaken}</span> seconds</p>
+        <p>You made <span class="bold red">${test.errorCount}</span> mistakes</p>
   `;
 
     histories.appendChild(newRow);
